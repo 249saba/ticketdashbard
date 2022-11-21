@@ -1,0 +1,119 @@
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.box{
+  overflow: auto;
+  height: 500px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.boxcontainer {
+
+  position: relative;
+  max-height: 70vh;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid #999;
+  width: 70%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.close-icon {
+  cursor: pointer;
+  position: fixed;
+  right: 195px;
+  top: 80px;
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+.asteric{
+  color: red;
+}
+.project{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.dropdown{
+  width: 400px;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  margin-left: 780px;
+  margin-top: 10px;
+  width: 150px;
+  text-align: center;
+  justify-content:space-between
+ 
+}
+.create{
+  background-color: blue;
+  color: #fff;
+  width: 83px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.cancel{
+  color: blue;
+  width: 83px;
+  background-color:#fff;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.questionMark{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.issuetype{
+  display: flex;
+  flex-direction: row;
+}
+.summary{
+  width: 500px; 
+  margin-top: 20px;
+}
+input{
+  width: 650px;
+  border: 1px solid lightgrey;
+  height: 27px;
+}
+.description{
+  width: 800px;
+  height: 200px;
+  border: 1px solid lightgrey;
+}
